@@ -6,10 +6,14 @@ The Code Block Parser program takes an input of code blocks from `stdin` and fil
 - - Provides an option to add an extension for unrecognized code block types.
 ## Dependencies
 - A C++ compiler supporting C++11 or higher
-- - Standard C++ Library
-- - Make (for building the project)
+- Standard C++ Library
+- Make (for building the project)
 ## Compilation
-A working `Makefile` is provided with this project for ease of compilation.To compile the program, navigate to the directory containing the `Makefile` and source code, and then run:```bash\nmake\n```\n\nThis will produce an executable named `code_block_parser` (or another name as specified in the `Makefile`).
+A working `Makefile` is provided with this project for ease of compilation.To compile the program, navigate to the directory containing the `Makefile` and source code, and then run:
+```bash
+make
+```
+This will produce an executable named `code_block_parser` (or another name as specified in the `Makefile`).
 ## Usage
 Run the program with the desired code block type as an argument:
 ```bash
