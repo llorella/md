@@ -21,7 +21,10 @@ For example:
 ```
 After running the program, paste the code blocks into the terminal, or pipe the input from another program or file.
 ### Example:
-To filter Python code blocks from a Markdown file:```bash\ncat example.md | ./code_block_parser python\n```
+To filter Python code blocks from a Markdown file:
+```bash
+cat example.md | ./code_block_parser python
+```
 ## License
 This project is open source and available under the [MIT License](LICENSE).
 
