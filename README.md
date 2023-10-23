@@ -17,17 +17,17 @@ This will produce an executable named `code_block_parser` (or another name as sp
 ## Usage
 Run the program with the desired code block type as an argument:
 ```bash
-./code_block_parser <type>
+./md <type>
 ```
 For example:
 ```bash
-./code_block_parser python
+./md python
 ```
 After running the program, paste the code blocks into the terminal, or pipe the input from another program or file.
 ### Example:
 To filter Python code blocks from a Markdown file:
 ```bash
-cat example.md | ./code_block_parser python
+cat example.md | ./md python
 ```
 ## License
 This project is open source and available under the [MIT License](LICENSE).
