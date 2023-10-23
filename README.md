@@ -2,7 +2,8 @@
 ## Description
 The Code Block Parser program takes an input of code blocks from `stdin` and filters out code blocks of a particular type specified as a command-line argument. It then presents the user with a selection of matching code blocks to choose from, eventually printing the chosen code block to `stdout`.
 ## Features
-- Parses and filters code blocks based on their type (e.g., `python`, `c++`, `shell`, etc.)\n- Allows the user to select from matching code blocks.\n- Provides an option to add an extension for unrecognized code block types.
+- Parses and filters code blocks based on their type (e.g., `python`, `c++`, `shell`, etc.)\n- Allows the user to select from matching code blocks.
+- Provides an option to add an extension for unrecognized code block types.
 ## Dependencies
 - A C++ compiler supporting C++11 or higher\n- Standard C++ Library\n- Make (for building the project)
 ## Compilation
