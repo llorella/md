@@ -12,11 +12,13 @@ The Code Block Parser program takes an input of code blocks from `stdin` and fil
 A working `Makefile` is provided with this project for ease of compilation.To compile the program, navigate to the directory containing the `Makefile` and source code, and then run:```bash\nmake\n```\n\nThis will produce an executable named `code_block_parser` (or another name as specified in the `Makefile`).
 ## Usage
 Run the program with the desired code block type as an argument:
-```
-bash\n./code_block_parser <type>\n
+```bash
+./code_block_parser <type>
 ```
 For example:
-```bash\n./code_block_parser python\n```
+```bash
+./code_block_parser python
+```
 After running the program, paste the code blocks into the terminal, or pipe the input from another program or file.
 ### Example:
 To filter Python code blocks from a Markdown file:```bash\ncat example.md | ./code_block_parser python\n```
