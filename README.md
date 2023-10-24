@@ -1,4 +1,4 @@
-# Code Block Parser\n\n
+# Code Block Parser
 ## Description
 The Code Block Parser program takes an input of code blocks from `stdin` and filters out code blocks of a particular type specified as a command-line argument. It then presents the user with a selection of matching code blocks to choose from, eventually printing the chosen code block to `stdout`.
 ## Features
